@@ -1,0 +1,10 @@
+header {
+    width: 100%;
+    display: flex;
+    font-size: xx-large;
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+}
