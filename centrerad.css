@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: system-ui;
+}
+
+h1, h2, p {
+    max-width: 80ch;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 56rem;
+    /*margin: 0 auto;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hero {
+    height: 50vh;
+    padding-top: 3rem;
+    background-color: #bbbbbb;
+    position: relative;
+    h1 {
+        font-size: 5rem;
+        color: white;
+    }
+}
+
+.cta {
+    display: block;
+    color: white;
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.6rem;
+    background-color: rgb(169, 169, 169);
+    font-size: 1.4rem;
+    color: white;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
