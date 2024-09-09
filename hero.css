@@ -1,0 +1,41 @@
+img {
+    max-width: 100%;
+}
+
+body,html {
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    height: 60vh;
+
+    > * {
+        position: absolute;
+    }
+
+    .overlay {
+        top: 0;
+        left: 0;
+        height: 60vh;
+        width: 100%;
+        position: absolute;
+        background-color: rgba(5, 255, 226, 0.3);
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 6rem;
+        padding: 2rem;
+    }
+    
+    img {
+        top: 0;
+        left: 0;
+        aspect-ratio: 16/9;
+        height: 60vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
